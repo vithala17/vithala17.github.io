@@ -1,0 +1,78 @@
+.widthDef {
+    left: 10%;
+    width: 80%;
+}
+
+.imageDef {
+    width: 50%;
+}
+
+.DetailHolder {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: rgb(128, 113, 218);
+    color: lightcyan;
+}
+
+.Table {
+    display: flex;
+    width: 100%;
+}
+
+.Title {
+    display: table-caption;
+    text-align: center;
+    /* font-weight: bold; */
+    /* font-size: larger; */
+}
+
+.Heading {
+    display: flex;
+    font-weight: bold;
+    /* text-align: center; */
+    width: 100%;
+    /* padding-left: 10%; */
+    /* padding-right: 10%; */
+}
+
+.Row {
+    display: inline-flex;
+}
+
+.Image {
+    width: 100%;
+}
+
+.ImageCell {
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.Cell {
+    display: table-cell;
+    text-align: left;
+    width: 70%;
+    padding-right: 5px;
+    padding-top: 0px;
+}
+
+.LogoCell {
+    display: table-cell;
+    /* border: solid; */
+    text-align: center;
+    width: 10%;
+    /* border-width: thin; */
+    /* padding-left: 10px; */
+    padding-right: 10px;
+}
+
+.LogoImageCell{
+    display: table-cell;
+    text-align: center;
+    width: 1000%;
+}
