@@ -15,4 +15,4 @@ For detailed experiences, check [projects](https://vithala17.github.io/projects)
 
 In the future i am looking forward for the roles where i can contribute more on implementing devops procedures and deployements, making technical designs and leading a team.
 
-Download [resume](https://vithala17.github.io/static/files/Shashank-Profile.pdf)  
+Download [resume](https://vithala17.github.io/static/files/Profile.pdf)  
