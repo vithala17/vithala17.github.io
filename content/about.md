@@ -5,14 +5,16 @@ date = "2022-10-04"
 author = "Shashank sarma"
 +++
 
-_"In a day when you dont come across any problems, you can be sure you are travelling in a wrong path" - Swami Vivekananda_
+Right after my graduation, I have started my career at [HCL](https://www.hcltech.com/) as software engineer(2014) with .Net, C# as my primary skills. Ever since then I have worked on versions of .Net ranging from **.Net framework 2** to **.Net core**, **.Net 7**. I have worked on designing the low level architecture of an application using **Microservices** in **Azure** environment, developed and deployed them. I had a chance to work on **SQL** and **SAP HANA** simultaneously as well. I would never shy away from doing things in a new way. I have minor experiences on **ReactJs** and **Angular**.  
 
-Right after my graduation, I have started my career at [HCL](https://www.hcltech.com/) as software engineer(2014) with .Net, C# have become my primary skills. Ever since then i always grabbed the oppurtunity the industry has thrown at me to learn and try new things. I worked on both Angular and ReactJs for some brief period, which i would say was a kind of unique experience for me. I have worked across various companies and domains like Gaming, Enterprise management applications, Finance and credit ratings, Delivery management applications, hospitality applications. I am right now employeed with Harman international, where i am working on venturing into the much anticipated devops area involving Terraform, Kubernetes, Azure pipelines and lots of other exciting stuff.
+I am worked on designing **designing, developing microservices from the scratch and deploying them.** This involved delivering complex architectures patterns like event outboxing, choreographer microservices, SEDA architectures.  
 
-I am worked on designing *designing, developing microservices from the scratch and deploying them.* This involved delivering complex architectures patterns like event outboxing, choreographer microservices, SEDA architectures.
+I would say my core competencies are **Microservices with .Net 7, Azure, Devops, Docker**. I have recently started working on **Kubernetes** as well.  
 
-For detailed experiences, check [projects](https://vithala17.github.io/projects)
+I practice coding on various online online platforms whenever i get some time. I have achieved a 5 star gold badge on Hackerrank problem solving segement. [Here](https://www.hackerrank.com/vithala17) is the link to it.
+
+For detailed experiences, check [projects](/projects)
 
 In the future i am looking forward for the roles where i can contribute more on implementing devops procedures and deployements, making technical designs and leading a team.
 
-Download [resume](https://vithala17.github.io/static/files/Profile.pdf)  
+Download [resume](/static/Profile.pdf)  
