@@ -12,7 +12,8 @@
       <pubDate>Tue, 04 Oct 2022 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/about/</guid>
-      <description></description>
+      <description>&amp;ldquo;In a day when you dont come across any problems, you can be sure you are travelling in a wrong path&amp;rdquo; - Swami Vivekananda
+Right after my graduation, I have started my career at HCL as software engineer(2014) with .Net, C# have become my primary skills. Ever since then i always grabbed the oppurtunity the industry has thrown at me to learn and try new things. I worked on both Angular and ReactJs for some brief period, which i would say was a kind of unique experience for me.</description>
     </item>
     
     <item>
@@ -39,7 +40,11 @@
       <pubDate>Tue, 04 Oct 2022 00:00:00 +0000</pubDate>
       
       <guid>http://example.org/projects/</guid>
-      <description></description>
+      <description>P.S: The projects I have worked are explained in length here. Techincal terms and my role has been highlighted in case of quick reading.
+HARMAN InternationalLink to heading(2021 - till date)
+Lead engineer
+Client : Microsoft Project : Confidential
+This project was a tool used by the clients to monitor their project statuses. This was an end to end solution to the non technical share holder to understand the delivery, revenue, work status, expenditure and other aspects of a project they are handling.</description>
     </item>
     
   </channel>
