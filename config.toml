@@ -108,8 +108,13 @@ weight = 2
 url = "posts/"
 
 [[languages.en.menu.main]]
-name = "Projects"
+name = "Profile"
 weight = 3
+url = "static/Profile.pdf"
+
+[[languages.en.menu.main]]
+name = "Projects"
+weight = 4
 url = "projects/"
 
 [[languages.en.menu.main]]
