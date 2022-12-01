@@ -16,7 +16,7 @@ author = "Shashank Sarma"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "Shashank Sarma's portfolio"
 keywords = "Microservices, Devops, .Net core, Azure"
-info = ["Full Stack DevOps", "Azure", "Unlearner-Learner"]
+info = ["Cloud Engineer","Microservices-Azure-.Net 7", "Azure(IaaS, Paas, SaaS)", "DevOps"]
 avatarURL = "images/avatar.jpg"
 #gravatar = "john.doe@example.com"
 dateFormat = "March 22, 1992"
