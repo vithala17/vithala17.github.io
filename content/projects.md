@@ -17,7 +17,7 @@ This project was a tool used by the clients to monitor their project statuses. T
 
 1. *Authentication platform*: The existing micro services were aunthentication and authorizing the user at their own level per each request. This was an operational overhead. So to overcome this we had to create an AuthZ platform which can do the job for these services uniquely. The authorization must happen based on various factors that were stored in database like role of the user, claims he has, confidentiality level of the particular project, timezones the project exist in. In case of UI, the authorization must happen against the resources i.e; pages, button, images, download/upload permissions and other UI elements/functionalities.  
 This micro service would sit behind an **APIM** in a private network, any micro service/UI request that needs AuthZ will hit an incoming uri of the APIM and the service would return a token containing the suitable resources for the user to access or a custom message in case of no authorization.  
-This micro service was built on **Azure Fucntions v4** and **.Net 6**, so that we have serverless functions run in an isolated environment. MS-SQL was used as the database. **Azure service bus** was used for messaging between micro services.  
+This micro service was built on **Azure Fucntions v4** and **.Net 6**, so that we have serverless functions run in an isolated environment. MS-SQL was used as the database. **Azure service bus** was used for messaging between micro services.
 My responsibilities were as belows;  
     1. **Work closely with the product owner(client) and architect to understand the requirements and HLD.**  
     2. **Sketch out LLDs and generate component level documentation, get it approved by the client.**  
@@ -28,14 +28,15 @@ My responsibilities were as belows;
     7. **Work closely with DevOps team to get the application deployed rightly**  
 ---
 2. *Azure DevOps Boards integration*: The application had to be integrated with Azure devops boards so that whenever any item is created on the project's Azure boards it gets synced into the application and viz. The items once synced had to become read only on the application and can only be edited via Azure board. The challenege here was one project can involve multiple vendors working with multiple azure boards. Consistency of the system shouldn't be effected when the syncing of items happen. This micro service also had to have a notification service to send emails periodically to responsible people about the item's due date or status change etc.  
-This micro service was built on **Azure Fucntions v4** and **.Net 6**, so that we have serverless functions run in an isolated environment. MS-SQL was used as the database. **Azure service** bus was used for messaging between micro services. Azure devops boards had to use Webhooks to let the sync happen.  
+This micro service was built on **Azure Fucntions v4** and **.Net 6**, so that we have serverless functions run in an isolated environment. MS-SQL was used as the database. **Azure service** bus was used for messaging between micro services. Azure devops boards had to use Webhooks to let the sync happen.  The front was developed in **ReactJS**. 
     1. **Work closely with the product owner(client) and architect to understand the requirements and HLD.**  
     2. **Sketch out LLDs and generate component level documentation, get it approved by the client.**  
     3. **Hand over work items to other team members, keep some to self.** 
     4. **Address the technical issues within the team.** 
     5. **Review and approve the PRs raised by peers.**
     6. **Work closely with the testing team to generate the test cases as rigid as possible.**
-    7. **Work closely with DevOps team to get the application deployed rightly**
+    7. **Work closely with DevOps team to get the application deployed rightly.**
+    8. **Take up any UI bugs that were left out due to capacity issues.**
 
 **Client** : Pointsbet
 Project : Winx  

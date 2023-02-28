@@ -17,4 +17,4 @@ For detailed experiences, check [projects](/projects)
 
 In the future i am looking forward for the roles where i can contribute more on implementing devops procedures and deployements, making technical designs and leading a team.
 
-Download [resume](/static/Profile.pdf)  
+Download [resume](/static/docs/Profile.pdf)  

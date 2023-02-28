@@ -165,7 +165,7 @@ Project : Confidential</p>
 <ol>
 <li><em>Authentication platform</em>: The existing micro services were aunthentication and authorizing the user at their own level per each request. This was an operational overhead. So to overcome this we had to create an AuthZ platform which can do the job for these services uniquely. The authorization must happen based on various factors that were stored in database like role of the user, claims he has, confidentiality level of the particular project, timezones the project exist in. In case of UI, the authorization must happen against the resources i.e; pages, button, images, download/upload permissions and other UI elements/functionalities.<br>
 This micro service would sit behind an <strong>APIM</strong> in a private network, any micro service/UI request that needs AuthZ will hit an incoming uri of the APIM and the service would return a token containing the suitable resources for the user to access or a custom message in case of no authorization.<br>
-This micro service was built on <strong>Azure Fucntions v4</strong> and <strong>.Net 6</strong>, so that we have serverless functions run in an isolated environment. MS-SQL was used as the database. <strong>Azure service bus</strong> was used for messaging between micro services.<br>
+This micro service was built on <strong>Azure Fucntions v4</strong> and <strong>.Net 6</strong>, so that we have serverless functions run in an isolated environment. MS-SQL was used as the database. <strong>Azure service bus</strong> was used for messaging between micro services.
 My responsibilities were as belows;
 <ol>
 <li><strong>Work closely with the product owner(client) and architect to understand the requirements and HLD.</strong></li>
@@ -181,7 +181,7 @@ My responsibilities were as belows;
 <hr>
 <ol start="2">
 <li><em>Azure DevOps Boards integration</em>: The application had to be integrated with Azure devops boards so that whenever any item is created on the project&rsquo;s Azure boards it gets synced into the application and viz. The items once synced had to become read only on the application and can only be edited via Azure board. The challenege here was one project can involve multiple vendors working with multiple azure boards. Consistency of the system shouldn&rsquo;t be effected when the syncing of items happen. This micro service also had to have a notification service to send emails periodically to responsible people about the item&rsquo;s due date or status change etc.<br>
-This micro service was built on <strong>Azure Fucntions v4</strong> and <strong>.Net 6</strong>, so that we have serverless functions run in an isolated environment. MS-SQL was used as the database. <strong>Azure service</strong> bus was used for messaging between micro services. Azure devops boards had to use Webhooks to let the sync happen.
+This micro service was built on <strong>Azure Fucntions v4</strong> and <strong>.Net 6</strong>, so that we have serverless functions run in an isolated environment. MS-SQL was used as the database. <strong>Azure service</strong> bus was used for messaging between micro services. Azure devops boards had to use Webhooks to let the sync happen.  The front was developed in <strong>ReactJS</strong>.
 <ol>
 <li><strong>Work closely with the product owner(client) and architect to understand the requirements and HLD.</strong></li>
 <li><strong>Sketch out LLDs and generate component level documentation, get it approved by the client.</strong></li>
@@ -189,7 +189,8 @@ This micro service was built on <strong>Azure Fucntions v4</strong> and <strong>
 <li><strong>Address the technical issues within the team.</strong></li>
 <li><strong>Review and approve the PRs raised by peers.</strong></li>
 <li><strong>Work closely with the testing team to generate the test cases as rigid as possible.</strong></li>
-<li><strong>Work closely with DevOps team to get the application deployed rightly</strong></li>
+<li><strong>Work closely with DevOps team to get the application deployed rightly.</strong></li>
+<li><strong>Take up any UI bugs that were left out due to capacity issues.</strong></li>
 </ol>
 </li>
 </ol>
@@ -317,7 +318,7 @@ Game offer is a website where gamers can invite friends to join the gaming conso
     
       2014 -
     
-    2022
+    2023
      Shashank Sarma 
     ·
     
