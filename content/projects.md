@@ -49,7 +49,7 @@ My responsibilities were as belows;
     2. **Follow the HLDs and LLDs created by the client and develop the application**
     3. **Deploy the application using Docker images via CI/CD pipelines**  
 2. *Global Pre-Registration:*  
-The application has to let user pre-register themselves before the racing/sporting season begins to avail exclsuive special offers. This was an **Azure function V4** built on **.Net 6**. The application should read, write user data from/into a universal store hosted in **Azure Cosmos DB**
+The application has to let user pre-register themselves before the racing/sporting season begins to avail exclsuive special offers. This was an **Azure function V4** built on **.Net 6**. The application should read, write user data from/into a universal store hosted in **Azure Cosmos DB**. **Docker** images are built and containerized using **Kubernetes**. These containers are depoyed into various environments.
 My responsibilities were as belows;  
     1. **Understand the requirements from the clients(USA & AU)**
     2. **Follow the HLDs and LLDs created by the client and develop the application**
