@@ -7,8 +7,15 @@ author = "Shashank sarma"
 
 *P.S: The projects I have worked are explained in length here. Techincal terms and my role has been highlighted in case of quick reading.*
 
-## HARMAN International  
+## Shell
 (2021 - *till date*)  
+Senior Software Engineer  
+Product development  
+
+Given the Non Disclosure Agreements, unfortunately I can not write much here.
+
+## HARMAN International  
+(2021 - 2023)  
 Lead engineer  
 **Client** : Microsoft
 Project : Confidential  
